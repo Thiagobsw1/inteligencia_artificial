@@ -68,7 +68,9 @@ h1{
     text-align: center;
 }
 p.resposta{
-    background-color: rgb(124, 255, 80);    
+    background-color: rgb(124, 255, 80);
+    padding-bottom: 2px; 
+      
 }
 p.justificativa{
     background-color: aqua;
