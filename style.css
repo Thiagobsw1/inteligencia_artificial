@@ -4,6 +4,7 @@
 body{
     font-family: sans-serif, Courier, monospace;   
     padding: 20px; 
+    
 }
 
 header{
@@ -11,6 +12,9 @@ header{
     text-align: center;
     font-size: 150%;
     font-size: xx-large;
+}
+nav{
+    display: block;
 }
 
 .menu {
@@ -39,7 +43,7 @@ header{
 
 .menu li ul{
     position: absolute;
-    top: 20px;
+    top: 19px;
     left: 0px;
     background-color: #fff;
     display: none;
