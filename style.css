@@ -4,6 +4,7 @@
 body{
     font-family: sans-serif, Courier, monospace;   
     padding: 20px; 
+    text-align: justify;
     
 }
 
@@ -15,6 +16,10 @@ header{
 }
 nav{
     display: block;
+    margin-left: auto;
+    
+    padding-bottom: 5%;
+
 }
 
 .menu {
@@ -82,4 +87,10 @@ p.justificativa{
 }
 ol{
     margin: 15px;
+}
+img{
+    padding-top: 15px;    
+    width: 80%;
+    margin-left: 10%;
+
 }
