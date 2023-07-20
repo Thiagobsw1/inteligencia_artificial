@@ -4,39 +4,44 @@
 body{
     font-family: sans-serif, Courier, monospace;   
     padding: 20px; 
-    text-align: justify;
+    text-align: justify;    
+    max-width: 800px;   
+    margin: auto;
     
 }
 
 header{
+    padding-top: 30px;
     padding-bottom: 20px;
     text-align: center;
     font-size: 150%;
     font-size: xx-large;
 }
-nav{
-    display: block;
-    margin-left: auto;
+
+.menu {    
+    list-style: none;         
+    padding-bottom: 20px; 
+    padding-top: 10px;
+    position: fixed;
+    top: 0;  
+    width: 100%;
+    background-color: white;   
+    text-align: center;
+    max-width: 800px;
     
-    padding-bottom: 5%;
-
-}
-
-.menu {
-    align-items: center;
-    list-style: none;
-         
-    padding-bottom: 20px;    
 }
 
 .menu li{
+    align-items: center;
+    font-size: 15px;       
     position: relative;
-    float: left;
-      
+    display: inline-block;      
     padding-left: 6px;
-    padding-right: 6px;
+    padding-right: 6px;  
     
 }
+
+
 
 .menu li a:hover{
     background: #333;
@@ -44,6 +49,7 @@ nav{
     box-shadow:0 0px 10px 0 #CCC;
     -webkit-box-shadow:0 3px 10px 0 #ccc;
     text-shadow: 0px 0px 5px #fff;    
+    
 }
 
 .menu li ul{
@@ -52,20 +58,21 @@ nav{
     left: 0px;
     background-color: #fff;
     display: none;
-    width: auto;
-    
+    width: auto;       
 }
 
 .menu li:hover ul, .menu li.over ul{    
     display:block;
     transform: rotate(0deg);
-    padding-top: -10px;    
+    padding-top: -10px;  
+     
 }
 
 .menu li ul li{
     border: 1px solid #c0c0c0;
     display: block;
-    width: 150px;
+    width: 80%;
+   
 }
 
 h1{
@@ -94,3 +101,6 @@ img{
     margin-left: 10%;
 
 }
+
+
+
