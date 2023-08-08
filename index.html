@@ -1535,136 +1535,153 @@
         <hr> 
     </ol>
 
-<!--
+
     
     <h2 id="Aula14"  class="aulas">Aula 14</h2>
     <ol>
 
-        <li class="perguntas"></li>
+        <li class="perguntas">
+            Métodos para validar os resultados obtidos em algoritmos de aprendizado de máquina são fundamentais para garantir a validade e a reprodutibilidade dos experimentos realizados. Dessa forma, o conhecimento das diferentes técnicas é de suma importância para o desenvolvimento do analista de dados.
+            
+            Sendo assim, indique a alternativa que expressa corretamente o funcionamento da validação cruzada:</li>
             
             
-            <ol start="5">
+            <ol start="4">
                 <li type="A">
-                    <p class="resposta"></p>
+                    <p class="resposta">Para o método da validação cruzada é necessário dividir o conjunto de dados em diferentes partições, onde o algoritmo é treinado e testado até que todas as partições tenham sido utilizadas no teste.</p>
                     <p class="justificativa"></li>
             </ol>
         </li>
         <hr> 
 
-        <li class="perguntas"></li>
-            
-            
-            <ol start="5">
-                <li type="A">
-                    <p class="resposta"></p>
-                    <p class="justificativa"></p>
-                </li>
-            </ol>
-        </li>
-        <hr> 
+        <li class="perguntas">No contexto de aprendizado de máquina, a tarefa a ser executada tem papel fundamental na escolha do algoritmo. Isso tem relação com o paradigma de aprendizado ao qual o problema está atrelado. Saber identificar esses paradigmas é imprescindível para a correta utilização dos métodos de aprendizado de máquina.
 
-        <li class="perguntas"></li>
-            
-            
-            <ol start="5">
-                <li type="A">
-                    <p class="resposta"></p>
-                    <p class="justificativa"></p>
-                </li>
-            </ol>
-        </li>
-        <hr> 
-
-        <li class="perguntas"></li>
+            Dessa forma, indique a alternativa que apresenta corretamente as diferenças entre um classificador e um regressor: </li>
             
             
             <ol start="1">
                 <li type="A">
-                    <p class="resposta"></p>
-                    <p class="justificativa"></p>
+                    <p class="resposta">Classificador é o nome dado ao estimador capaz de aproximar uma função em que o seu domínio é limitado pelo conjunto de valores nominais. Regressor é o nome dado ao estimador capaz de aproximar uma função em que o seu domínio é limitado pelo conjunto infinito e ordenado de valores.</p>
+                    <p class="justificativa">Um algoritmo de aprendizado de máquina é chamado de classificador quando se deseja estimar uma função em que o seu domínio está limitado pelo conjunto de valores discretos não ordenados. Quando a função a ser aproximada apresenta o seu domínio como o conjunto infinito de valores ordenados, é dado o nome de regressor.</p>
                 </li>
             </ol>
         </li>
         <hr> 
 
-        <li class="perguntas"></li>
+        <li class="perguntas">Medidas para a visualização do desempenho de um classificador são obtidas por meio do uso de matrizes de confusão. Esta matriz ilustra o número de predições corretas e incorretas do classificador. Dessa forma, é possível calcular facilmente diferentes métricas para o algoritmo.
+            <img src="14.jpg" alt="">
+        ​Sendo assim, calcule as métricas de acurácia, precisão e revocação para a seguinte matriz de confusão:
+        </li>
             
             
-            <ol start="2">
+            <ol start="3">
                 <li type="A">
-                    <p class="resposta"></p>
-                    <p class="justificativa"></p>
+                    <p class="resposta">Acurácia = 0,82, precisão = 0,80 e revocação = 0,85.</p>
+                    <p class="justificativa">Uma vez que é apresentada a matriz de confusão, basta utilizarmos as seguintes fórmulas para o cálculo da acurácia, precisão e revocação:
+
+                        <img src="14c.jpg" alt="">
+                    </p>
+                </li>
+            </ol>
+        </li>
+        <hr> 
+
+        <li class="perguntas">Uma técnica de amostragem para a validação de algoritmos é o método holdout. Nessa estratégia, divide-se o conjunto de dados em diferentes proporções para o treinamento e para o teste. Um problema comum com esse tipo de estratégia é a possível dependência da partição adotada para o treino e/ou teste.
+
+            Indique a alternativa que apresenta corretamente uma solução para a utilização do método holdout:</li>
+            
+            
+            <ol start="5">
+                <li type="A">
+                    <p class="resposta">Para que os resultados apresentem menor dependência da partição, pode-se utilizar o método de random subsampling, no qual as partições são formadas por objetos aleatórios da base.</p>
+                    <p class="justificativa">Para evitar que as partições para o método holdout apresentem algum viés, pode-se utilizar o método de random subsampling. Por meio da divisão dos dados da base em diferentes conjuntos de treino e teste, nos quais cada par de conjunto é preenchido com objetos selecionados aleatoriamente da base, é possível obter uma média de desempenho em holdout, de modo a tornar os resultados menos dependentes das partições.</p>
+                </li>
+            </ol>
+        </li>
+        <hr> 
+
+        <li class="perguntas">Quando se treina um algoritmo de aprendizado de máquina, deseja-se que ele apresente capacidade de generalização, ou seja, capacidade de prever a classe ou o valor de objetos não usados para o seu treinamento.
+
+            Nesse contexto, indique a alternativa que explica adequadamente o processo de subajuste e sobreajuste da curva aos dados usados no treinamento:</li>
+            
+            
+            <ol start="1">
+                <li type="A">
+                    <p class="resposta">Sobreajuste é o nome dado ao ajuste completo da curva aos dados, diminuindo a capacidade da rede de generalizar objetos futuros. Subajuste é o nome dado à construção de um modelo simplista em relação aos dados, apresentando desempenho inferior mesmo durante a fase de treinamento.</p>
+                    <p class="justificativa">Sobreajuste é o processo que ocorre quando o algoritmo se adapta totalmente aos objetos de treinamento, de modo a perder a sua capacidade de generalização para novos objetos. Todavia, o subajuste é a incapacidade do algoritmo de estabelecer as relações necessárias entre os dados, criando um modelo demasiadamente simples.</p>
                 </li>
             </ol>
         </li>
         <hr> 
     </ol>
 
-    
+  
     <h2 id="Aula15"  class="aulas">Aula 15</h2>
     <ol>
 
-        <li class="perguntas"></li>
-            
-            
-            <ol start="5">
-                <li type="A">
-                    <p class="resposta"></p>
-                    <p class="justificativa"></li>
-            </ol>
-        </li>
-        <hr> 
-
-        <li class="perguntas"></li>
-            
-            
-            <ol start="5">
-                <li type="A">
-                    <p class="resposta"></p>
-                    <p class="justificativa"></p>
-                </li>
-            </ol>
-        </li>
-        <hr> 
-
-        <li class="perguntas"></li>
-            
-            
-            <ol start="5">
-                <li type="A">
-                    <p class="resposta"></p>
-                    <p class="justificativa"></p>
-                </li>
-            </ol>
-        </li>
-        <hr> 
-
-        <li class="perguntas"></li>
-            
-            
-            <ol start="1">
-                <li type="A">
-                    <p class="resposta"></p>
-                    <p class="justificativa"></p>
-                </li>
-            </ol>
-        </li>
-        <hr> 
-
-        <li class="perguntas"></li>
+        <li class="perguntas">A robótica em ambiente escolar proporciona uma aprendizagem que estimula o raciocínio lógico e contribui para a socialização dos alunos. Sobre esses aspectos da robótica, é correto afirmar:</li>
             
             
             <ol start="2">
                 <li type="A">
-                    <p class="resposta"></p>
-                    <p class="justificativa"></p>
+                    <p class="resposta">A robótica pode ser organizada a partir de trabalhos em grupos, focada na resolução de problemas do cotidiano dos alunos, estimulando a tomada de decisões em conjunto, de forma coletiva, entre professores e alunos.</p>
+                    <p class="justificativa">A robótica na escola deve ser organizada a partir de trabalhos em grupos, estimulando a cooperação e a colaboração entre professores e alunos, por meio de decisões coletivas, que busquem solucionar os problemas propostos. Perceba que é importante que esses problemas estejam articulados ao cotidiano em que os alunos estão inseridos. As aulas de robótica podem, também, articular conteúdos de diversas disciplinas, o que favorece um ensino interdisciplinar.</li>
+            </ol>
+        </li>
+        <hr> 
+
+        <li class="perguntas">
+            Os projetos de robótica na escola devem ser organizados de forma interdisciplinar, o que exige troca, reciprocidade e partilha, entre os conteúdos, dos professores das disciplinas envolvidas no projeto. Com relação à interdisciplinaridade, marque a alternativa correta.</li>
+            
+            
+            <ol start="4">
+                <li type="A">
+                    <p class="resposta"> 
+                        A interdisciplinaridade deve ser compreendida em um projeto como um movimento de compartilhar e partilhar relações entre o conteúdo de diversas áreas do conhecimento, em um trabalho coletivo e colaborativo com os colegas de outras disciplinas.</p>
+                    <p class="justificativa">A interdisciplinaridade em um projeto escolar prevê a troca, o compartilhamento e a partilha de saberes de diversas áreas do conhecimento, a partir de um trabalho coletivo e cooperativo entre as diversas disciplinas do currículo escolar.</p>
+                </li>
+            </ol>
+        </li>
+        <hr> 
+
+        <li class="perguntas">O Scratch é uma linguagem de programação, organizada de forma visual, que possibilita que a programação seja realizada para crianças. A seguir, marque o item correto sobre essa importante linguagem.</li>
+            
+            
+            <ol start="1">
+                <li type="A">
+                    <p class="resposta">A partir dessa linguagem de programação, professores podem estimular os alunos a produzirem, por exemplo, jogos, histórias animadas e mapas interativos.</p>
+                    <p class="justificativa">Scratch é uma linguagem de programação caracterizada por uma forma visual que favorece a realização de programação por crianças. Essa linguagem possibilita que os alunos produzam, por exemplo, jogos, histórias animadas e mapas interativos, assim como outros materiais educativos.</p>
+                </li>
+            </ol>
+        </li>
+        <hr> 
+
+        <li class="perguntas">Quanto aos aspectos pedagógicos que o professor deve considerar nas aulas de robótica, marque a alternativa correta.</li>
+            
+            
+            <ol start="3">
+                <li type="A">
+                    <p class="resposta">Para estimular o envolvimento e o comprometimento dos alunos na busca de soluções para um determinado problema nas aulas de robótica, seria fundamental que esse problema surgisse a partir do contexto escolar dos alunos. Os projetos devem ser construídos sempre de forma interdisciplinar entre os professores.</p>
+                    <p class="justificativa">As aulas de robótica devem ser planejadas a partir do interesse dos alunos, levando em conta o contexto escolar e social em que estão inseridos. Isso é fundamental para estimular e fomentar nos alunos o envolvimento em todo o processo de aprendizagem. Tenha em mente que o projeto das aulas de robótica deve ser elaborado sempre pelos professores, considerando não só os aspectos pedagógicos, como também os aspectos técnicos, analisando a infraestrutura disponível na escola para esses encontros.</p>
+                </li>
+            </ol>
+        </li>
+        <hr> 
+
+        <li class="perguntas">Marque o item que expressa corretamente como o ambiente escolar deve ser organizado para as aulas de robótica.</li>
+            
+            
+            <ol start="5">
+                <li type="A">
+                    <p class="resposta">Para as aulas de robótica, o ambiente escolar pode ser uma sala de aula. O ideal é que seja ampla e confortável, possibilitando aos professores a (re)organização a partir das demandas que surgem durante esses encontros.</p>
+                    <p class="justificativa">O ambiente escolar para as aulas de robótica deve ser pensado para proporcionar conforto e possibilidades pedagógicas que favoreçam a criatividade e o raciocínio lógico, a partir das demandas que vão surgindo durante os encontros. Ou seja, o ambiente pode ser (re)organizado pelos professores e pelos estudantes, pensando em uma aprendizagem focada no aluno. É preciso investir em um espaço com armários destinados para guardar os materiais de forma ordenada, pensando na durabilidade de todos os recursos que foram investidos pela escola.</p>
                 </li>
             </ol>
         </li>
         <hr> 
     </ol>
 
-    
+    <!--  
     <h2 id="Aula16"  class="aulas">Aula 16</h2>
     <ol>
 
